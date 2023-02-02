@@ -1,17 +1,28 @@
 ***1. Can you explain your understanding of DevOps and how it differs from traditional software development methodologies?***
    
   ## Traditional SDLC
+
+    When talking about the traditional SDLC, we often refer to the Waterfall approach because it is considered the earliest and most widely utilized methodology.
+
+    In the software development life cycle, the Waterfall model is used to design a system linearly and sequentially. This model is known as Waterfall because it advances in a systematic downward manner from one phase to the next. The output of one step is used as the input for the following one.
+
+    One of the model's key features is that each phase must be completed before the next one can begin, and the phases must not overlap.
+
     Unlike the DevOps software development era, the traditional SDLC followed a process where you had separate departments that were individually responsible for developing, testing and delivering. Consequently, a successful project delivery mainly relies on effective interdepartmental collaboration. This could be difficult to attain if you have remote teams or have outsourced some of your operations to third-party vendors.
 
-    Also, in traditional SDLC processes, single staging environments were common, which included the space for all pre-release preparations. From deployment to production, the chances for merge conflicts were higher. This could result in long and irregular release cycles with a higher probability of post-production flaws.
+   -   merge conflicts were higher. 
+   -   post-production flaws.
     
 ## DevOps software development
-    DevOps is a cultural and operational approach to software development that emphasizes collaboration and communication between development and operations teams in order to improve the speed and quality of software delivery. 
-    In DevOps software development, all departments are responsible for the final release. This leads to a fluid collaboration culture, closer interdepartmental affiliations, and better team effort rather than an individual mentality. Managing collaborations with third-party vendors can still be quite difficult, but a more relaxed environment can work more efficiently than the one with strict rules and release guidelines.
 
-    DevOps software development practices, known as continuous integration, development, deployment, and delivery, ensure that you have a well-functioning deployment build that is ready to go. All the necessary changes in the software are automatically merged, tested and deployed to a suitable production environment. When comparing traditional software development vs DevOps this process involves fewer efforts required to coordinate between different departments.
+    DevOps is a cultural and operational approach to software development that emphasizes collaboration and communication between development and operations teams in order to improve the speed and quality of software delivery. It includes practices such as continuous integration and continuous deployment. This ensures you always have a ready-to-deploy build.
 
-    An agile development approach is the foundation of DevOps practitioners. Scrum methodology enables more frequent releases — and that includes the unplanned ones as well. All the changes are well documented, well versioned and can be implemented as you go.
+    It's an endless cycle consisting of the following steps: plan, code, build and test, release, deploy, operate, monitor, give feedback, and finally reset the loop.
+
+    The developers write code that fulfills the requirements and then deploy the application. To align software with expectations, stakeholders and developers must effectively communicate about their project and its requirements.
+
+    All the necessary changes in the software are automatically merged, tested and deployed to a suitable production environment. When comparing traditional software development vs DevOps this process involves fewer efforts required to coordinate between different departments.
+
     
 
 ***2. How do you use tools such as Git, Jenkins, and Ansible to automate the software development and deployment process?***
@@ -25,11 +36,6 @@
     Ansible: Ansible is a configuration management tool that automates the deployment and management of software. It can be used to automate the deployment of software to various environments, such as development, testing, and production.
 
     Together, these tools can be used to automate much of the software development and deployment process, from building and testing code changes, to deploying code to various environments. The integration of Git, Jenkins, and Ansible can help streamline the process and reduce manual effort, allowing teams to focus on delivering new features and functionality.
-
-
-
-
-
 
 ***3. Can you walk me through a recent project you managed using DevOps practices and the challenges you faced?***
 
