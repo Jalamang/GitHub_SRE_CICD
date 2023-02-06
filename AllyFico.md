@@ -93,8 +93,11 @@
   
 
 ***8. How do you use tools such as JIRA or Trello to manage and track work in a DevOps environment?***
+
     - They are use to help organize project workflows, assigning tasks to team-members and track individual team member work and the entire project work progress more effectively. 
+  
     - Collaboration and communication, and enhance visibility and transparency, ultimately helping teams to deliver high-quality software faster and more efficiently.
+  
     - Helps in decision making
 
 ***9. Can you explain how you use A/B testing and canary releases to minimize risk and improve the release process?***
