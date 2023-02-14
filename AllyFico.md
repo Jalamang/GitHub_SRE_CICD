@@ -37,7 +37,7 @@
    - Git repository to manage the source code and Jenkins to automate the build process. Whenever code changes were pushed to the repository, Jenkins automatically built and tested the application.
    - Had SonarQube integrated with Jenkins to help improve code quality
 
-   - Despite challenges I faced with the new technologies like Jenkins and SonarQube, I completed the project was successfully:
+   - Despite challenges I faced with the new technologies like Jenkins and SonarQube, I completed the project successfully:
    
 
 ***4. How do you use containerization and orchestration technologies, such as Docker and Kubernetes, to improve scalability and reliability?***
